@@ -2,6 +2,7 @@ import React from "react";
 import "./Header.scss";
 import Button from "../Button/Button";
 
+
 const Header = (props) => {
   return (
     <header className="Header">
@@ -34,7 +35,7 @@ const Header = (props) => {
           />
         </svg>
         <nav className="Header-Nav">
-          <a href="courses.html" className="Header-Link">
+          <a href="../../pages/Courses/Courses.js" className="Header-Link">
             Courses
           </a>
           <Button className="Header-Button">Sign in</Button>
